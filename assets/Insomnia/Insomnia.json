@@ -1,0 +1,292 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-01-04T19:11:02.148Z",
+  "__export_source": "insomnia.desktop.app:v8.5.1",
+  "resources": [
+    {
+      "_id": "req_45177c16759a43329ad50da128f7dfcc",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704393549761,
+      "created": 1704392316349,
+      "url": "http://localhost:8080/medicos/1",
+      "name": "Exclusão de Médico",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704392316349,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "parentId": null,
+      "modified": 1704231583331,
+      "created": 1704231583331,
+      "name": "java-spring-boot-3-II-clinic-manager - API Voll.med",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_2caa855e2020476b81c6e0cf2c3938f9",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704395370534,
+      "created": 1704395363818,
+      "url": "http://localhost:8080/pacientes/1",
+      "name": "Exclusão de Paciente",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704384634241.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_44d7cdeaf5554d1296330d5b93d091b3",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704379276480,
+      "created": 1704376952134,
+      "url": "http://localhost:8080/medicos",
+      "name": "Atualização de Médico",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": 1,\n\t\"telefone\": \"31999881100\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704376952134,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_85a739bce3104083b924242ce2ebf11c",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704394858647,
+      "created": 1704394838666,
+      "url": "http://localhost:8080/pacientes",
+      "name": "Atualização de Paciente",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id\": 1,\n\t\"telefone\": \"31999887700\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704356637225.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_176aa8dd924f4a1682745afe2a23f937",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704338659140,
+      "created": 1704336322317,
+      "url": "http://localhost:8080/medicos?sort=nome,desc",
+      "name": "Listagem de Médicos",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704336322317,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_d0e87b1ccd0d4232af384275102c75c8",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704340342537,
+      "created": 1704340333211,
+      "url": "http://localhost:8080/pacientes?sort=nome,desc",
+      "name": "Listagem de Pacientes",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704283957692.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c0753f7bdb9f436eae677cccb12ad44d",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704315745642,
+      "created": 1704231593068,
+      "url": "http://localhost:8080/medicos",
+      "name": "Cadastro de Médico",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\"nome\": \"Robson Teixeira\",\n\"email\": \"robson.teixeira@voll.med\",\n\"telefone\": \"31912345678\",\n\"crm\": \"123456\",\n\"especialidade\": \"Ortopedia\",\n\"endereco\": {\n    \"logradouro\": \"Rua 1\",\n    \"bairro\": \"Centro\",\n    \"cep\": \"12345678\",\n    \"cidade\": \"Belo Horizonte\",\n    \"uf\": \"MG\",\n    \"numero\": \"13\",\n    \"complemento\": \"Casa\"\n    }\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704231593068,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_59fed9d9d43d4c678cd40c15c5682acc",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704319528919,
+      "created": 1704319379947,
+      "url": "http://localhost:8080/pacientes",
+      "name": "Cadastro de Paciente",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\"nome\": \"Jéssica Pereira\",\n\"email\": \"jessica.pereira@email.com\",\n\"telefone\": \"31999887766\",\n\"cpf\": \"123.456.789-00\",\n\"endereco\": {\n    \"logradouro\": \"Rua 2\",\n    \"bairro\": \"Centro\",\n    \"cep\": \"98732100\",\n    \"cidade\": \"Belo Horizonte\",\n    \"uf\": \"MG\",\n    \"numero\": \"16\",\n    \"complemento\": \"Apartamento 2004\"\n    }\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704231593018,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_748c4081b030b71ae850c3157cf92e22e4952a2a",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704231583334,
+      "created": 1704231583334,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1704231583334,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_748c4081b030b71ae850c3157cf92e22e4952a2a",
+      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
+      "modified": 1704231583337,
+      "created": 1704231583337,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
