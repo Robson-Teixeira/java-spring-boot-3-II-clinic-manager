@@ -6,6 +6,7 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -22,24 +23,30 @@ public class MedicoController {
 	}
 
 	@GetMapping
-	public Page<DadosListagemMedico> listar(Pageable pageable) {
+	public ResponseEntity<Page<DadosListagemMedico>> listar(Pageable pageable) {
 		// Para sobrescrever o padrão da paginação, pode-se decorar o tipo do parâmetro com
 		// @PageableDefault, definindo as propriedades desejadas (page, size, sort...)
-		return medicoRepository.findAllByAtivoTrue(pageable).map(DadosListagemMedico::new);
+		var medicos = medicoRepository.findAllByAtivoTrue(pageable).map(DadosListagemMedico::new);
+
+		return ResponseEntity.ok(medicos);
 	}
 
 	@PutMapping
 	@Transactional
-	public void atualizar(@RequestBody @Valid DadosAtualizacaoMedico dadosAtualizacaoMedico) {
+	public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoMedico dadosAtualizacaoMedico) {
 		var medico = medicoRepository.getReferenceById(dadosAtualizacaoMedico.id());
 		medico.atualizar(dadosAtualizacaoMedico);
+
+		return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
 	}
 
 	@DeleteMapping("/{id}")
 	@Transactional
-	public void excluir(@PathVariable Long id) {
+	public ResponseEntity excluir(@PathVariable Long id) {
 		var medico = medicoRepository.getReferenceById(id);
 		medico.excluir();
+
+		return ResponseEntity.noContent().build();
 	}
 
 }
