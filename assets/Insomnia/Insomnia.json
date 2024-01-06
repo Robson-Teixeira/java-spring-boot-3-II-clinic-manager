@@ -1,14 +1,52 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2024-01-04T19:11:02.148Z",
+  "__export_date": "2024-01-06T02:20:40.335Z",
   "__export_source": "insomnia.desktop.app:v8.5.1",
   "resources": [
     {
-      "_id": "req_45177c16759a43329ad50da128f7dfcc",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704393549761,
-      "created": 1704392316349,
+      "_id": "req_d46adcf2f79943f8b8a81d751eb5d9d5",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507576269,
+      "created": 1704507208844,
+      "url": "http://localhost:8080/medicos/1",
+      "name": "Detalhe de Médico",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704507208844,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "parentId": null,
+      "modified": 1704507152364,
+      "created": 1704507152364,
+      "name": "java-spring-boot-3-II-clinic-manager - API Voll.med",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_df4076d01f2c43adba805b39bc420423",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152410,
+      "created": 1704507152410,
       "url": "http://localhost:8080/medicos/1",
       "name": "Exclusão de Médico",
       "description": "",
@@ -33,20 +71,10 @@
       "_type": "request"
     },
     {
-      "_id": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "parentId": null,
-      "modified": 1704231583331,
-      "created": 1704231583331,
-      "name": "java-spring-boot-3-II-clinic-manager - API Voll.med",
-      "description": "",
-      "scope": "collection",
-      "_type": "workspace"
-    },
-    {
-      "_id": "req_2caa855e2020476b81c6e0cf2c3938f9",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704395370534,
-      "created": 1704395363818,
+      "_id": "req_96b6e78312f2406bac170aedaef6fad1",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152421,
+      "created": 1704507152421,
       "url": "http://localhost:8080/pacientes/1",
       "name": "Exclusão de Paciente",
       "description": "",
@@ -71,10 +99,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_44d7cdeaf5554d1296330d5b93d091b3",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704379276480,
-      "created": 1704376952134,
+      "_id": "req_0a4e2d700732424ea9a5679cdac4b620",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152404,
+      "created": 1704507152404,
       "url": "http://localhost:8080/medicos",
       "name": "Atualização de Médico",
       "description": "",
@@ -106,10 +134,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_85a739bce3104083b924242ce2ebf11c",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704394858647,
-      "created": 1704394838666,
+      "_id": "req_8478be8d56414f599c413d6a850582f9",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152416,
+      "created": 1704507152416,
       "url": "http://localhost:8080/pacientes",
       "name": "Atualização de Paciente",
       "description": "",
@@ -141,10 +169,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_176aa8dd924f4a1682745afe2a23f937",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704338659140,
-      "created": 1704336322317,
+      "_id": "req_9f1480f4db0745088f80de027f0f1732",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152393,
+      "created": 1704507152393,
       "url": "http://localhost:8080/medicos?sort=nome,desc",
       "name": "Listagem de Médicos",
       "description": "",
@@ -169,10 +197,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_d0e87b1ccd0d4232af384275102c75c8",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704340342537,
-      "created": 1704340333211,
+      "_id": "req_98d3618b40f04f57a96136fd52e4e196",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152398,
+      "created": 1704507152398,
       "url": "http://localhost:8080/pacientes?sort=nome,desc",
       "name": "Listagem de Pacientes",
       "description": "",
@@ -197,10 +225,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_c0753f7bdb9f436eae677cccb12ad44d",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704315745642,
-      "created": 1704231593068,
+      "_id": "req_644f17ab70534974a6be6695df31a3c9",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152381,
+      "created": 1704507152381,
       "url": "http://localhost:8080/medicos",
       "name": "Cadastro de Médico",
       "description": "",
@@ -232,10 +260,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_59fed9d9d43d4c678cd40c15c5682acc",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704319528919,
-      "created": 1704319379947,
+      "_id": "req_b7100a2509bd417cad242e529f1f882e",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152387,
+      "created": 1704507152387,
       "url": "http://localhost:8080/pacientes",
       "name": "Cadastro de Paciente",
       "description": "",
@@ -267,10 +295,10 @@
       "_type": "request"
     },
     {
-      "_id": "env_748c4081b030b71ae850c3157cf92e22e4952a2a",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704231583334,
-      "created": 1704231583334,
+      "_id": "env_f671fb0874df49dda614dc1ecbbc3842",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152367,
+      "created": 1704507152367,
       "name": "Base Environment",
       "data": {},
       "dataPropertyOrder": null,
@@ -280,13 +308,23 @@
       "_type": "environment"
     },
     {
-      "_id": "jar_748c4081b030b71ae850c3157cf92e22e4952a2a",
-      "parentId": "wrk_45a2e476428a45718f6faeaf749c054b",
-      "modified": 1704231583337,
-      "created": 1704231583337,
+      "_id": "jar_b6eccf7e96f2459eb2e1c17d21313a04",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152374,
+      "created": 1704507152374,
       "name": "Default Jar",
       "cookies": [],
       "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_e808832d597146c4925fd752827519b5",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704507152432,
+      "created": 1704507152431,
+      "fileName": "java-spring-boot-3-II-clinic-manager - API Voll.med",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
     }
   ]
 }
