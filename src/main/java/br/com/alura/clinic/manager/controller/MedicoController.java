@@ -8,6 +8,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
 @RequestMapping("medicos")
@@ -18,8 +19,13 @@ public class MedicoController {
 
 	@PostMapping
 	@Transactional // Transação ativa com banco de dados
-	public void cadastrar(@RequestBody @Valid DadosCadastroMedico dadosCadastroMedico) {
-		medicoRepository.save(new Medico(dadosCadastroMedico));
+	public ResponseEntity cadastrar(@RequestBody @Valid DadosCadastroMedico dadosCadastroMedico, UriComponentsBuilder uriComponentsBuilder) {
+        var medico = new Medico(dadosCadastroMedico);
+        medicoRepository.save(medico);
+
+        return ResponseEntity.created(
+                uriComponentsBuilder.path("/medicos/{id}").buildAndExpand(medico.getId()).toUri())
+                .body(new DadosDetalhamentoMedico(medico));
 	}
 
 	@GetMapping
