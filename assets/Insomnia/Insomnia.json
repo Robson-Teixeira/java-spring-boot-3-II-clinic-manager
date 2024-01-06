@@ -1,15 +1,15 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2024-01-06T02:20:40.335Z",
+  "__export_date": "2024-01-06T02:47:57.736Z",
   "__export_source": "insomnia.desktop.app:v8.5.1",
   "resources": [
     {
       "_id": "req_d46adcf2f79943f8b8a81d751eb5d9d5",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507576269,
+      "modified": 1704509253225,
       "created": 1704507208844,
-      "url": "http://localhost:8080/medicos/1",
+      "url": "http://localhost:8080/medicos/5",
       "name": "Detalhe de Médico",
       "description": "",
       "method": "GET",
@@ -43,9 +43,37 @@
       "_type": "workspace"
     },
     {
+      "_id": "req_87843c8acf5f4483812d77b5800438aa",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704508943803,
+      "created": 1704508936196,
+      "url": "http://localhost:8080/pacientes/1",
+      "name": "Detalhe de Paciente",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704449762596.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
       "_id": "req_df4076d01f2c43adba805b39bc420423",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152410,
+      "modified": 1704509253225,
       "created": 1704507152410,
       "url": "http://localhost:8080/medicos/1",
       "name": "Exclusão de Médico",
