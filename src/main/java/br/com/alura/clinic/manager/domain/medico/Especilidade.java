@@ -1,4 +1,4 @@
-package br.com.alura.clinic.manager.medico;
+package br.com.alura.clinic.manager.domain.medico;
 
 public enum Especilidade {
 

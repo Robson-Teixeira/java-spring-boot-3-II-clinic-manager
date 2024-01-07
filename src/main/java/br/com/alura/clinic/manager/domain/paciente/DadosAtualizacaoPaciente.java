@@ -1,6 +1,6 @@
-package br.com.alura.clinic.manager.paciente;
+package br.com.alura.clinic.manager.domain.paciente;
 
-import br.com.alura.clinic.manager.endereco.DadosEndereco;
+import br.com.alura.clinic.manager.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 

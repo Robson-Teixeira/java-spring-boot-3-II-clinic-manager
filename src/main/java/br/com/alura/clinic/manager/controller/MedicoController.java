@@ -1,6 +1,9 @@
 package br.com.alura.clinic.manager.controller;
 
-import br.com.alura.clinic.manager.medico.*;
+import br.com.alura.clinic.manager.domain.medico.DadosListagemMedico;
+import br.com.alura.clinic.manager.domain.medico.Medico;
+import br.com.alura.clinic.manager.domain.medico.MedicoRepository;
+import br.com.alura.clinic.manager.domain.medico.*;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

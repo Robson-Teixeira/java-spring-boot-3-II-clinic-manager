@@ -1,4 +1,4 @@
-package br.com.alura.clinic.manager.endereco;
+package br.com.alura.clinic.manager.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

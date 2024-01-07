@@ -1,6 +1,6 @@
-package br.com.alura.clinic.manager.medico;
+package br.com.alura.clinic.manager.domain.medico;
 
-import br.com.alura.clinic.manager.endereco.Endereco;
+import br.com.alura.clinic.manager.domain.endereco.Endereco;
 
 public record DadosDetalhamentoMedico(Long id, String nome, String email, String telefone, String crm, Especilidade especilidade, Endereco endereco) {
 

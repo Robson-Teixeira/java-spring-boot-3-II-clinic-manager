@@ -1,4 +1,4 @@
-package br.com.alura.clinic.manager.endereco;
+package br.com.alura.clinic.manager.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

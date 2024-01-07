@@ -1,6 +1,6 @@
-package br.com.alura.clinic.manager.paciente;
+package br.com.alura.clinic.manager.domain.paciente;
 
-import br.com.alura.clinic.manager.endereco.Endereco;
+import br.com.alura.clinic.manager.domain.endereco.Endereco;
 
 public record DadosDetalhamentoPaciente(String nome, String email, String telefone, String cpf, Endereco endereco) {
 
