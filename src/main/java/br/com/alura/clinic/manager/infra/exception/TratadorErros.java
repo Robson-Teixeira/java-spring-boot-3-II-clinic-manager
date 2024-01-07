@@ -1,4 +1,4 @@
-package br.com.alura.clinic.manager.infra;
+package br.com.alura.clinic.manager.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;
