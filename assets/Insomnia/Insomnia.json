@@ -1,13 +1,13 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2024-01-06T02:47:57.736Z",
+  "__export_date": "2024-01-07T02:57:03.554Z",
   "__export_source": "insomnia.desktop.app:v8.5.1",
   "resources": [
     {
       "_id": "req_d46adcf2f79943f8b8a81d751eb5d9d5",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704509253225,
+      "modified": 1704596163546,
       "created": 1704507208844,
       "url": "http://localhost:8080/medicos/5",
       "name": "Detalhe de Médico",
@@ -18,7 +18,14 @@
       "headers": [
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_b9ce406c6ef146b0a8f8ee414317eee1"
+        },
+        {
+          "id": "pair_1e5bf654841a4a1296c31ff625912b3f",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -45,7 +52,7 @@
     {
       "_id": "req_87843c8acf5f4483812d77b5800438aa",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704508943803,
+      "modified": 1704596158177,
       "created": 1704508936196,
       "url": "http://localhost:8080/pacientes/1",
       "name": "Detalhe de Paciente",
@@ -56,7 +63,14 @@
       "headers": [
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_3d10a49ba74a496da0b8a00ad441f27c"
+        },
+        {
+          "id": "pair_709d245f7c434a73bdfab8beba0a4c6e",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -73,7 +87,7 @@
     {
       "_id": "req_df4076d01f2c43adba805b39bc420423",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704509253225,
+      "modified": 1704596150041,
       "created": 1704507152410,
       "url": "http://localhost:8080/medicos/1",
       "name": "Exclusão de Médico",
@@ -84,7 +98,14 @@
       "headers": [
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_04642c9f63224fb99dbb9974f2f34db4"
+        },
+        {
+          "id": "pair_70186fa8a2194c1e9e556ebf0a55de94",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -101,7 +122,7 @@
     {
       "_id": "req_96b6e78312f2406bac170aedaef6fad1",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152421,
+      "modified": 1704596142399,
       "created": 1704507152421,
       "url": "http://localhost:8080/pacientes/1",
       "name": "Exclusão de Paciente",
@@ -112,7 +133,14 @@
       "headers": [
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_5d10bf33fed6485f9537a997b51216e7"
+        },
+        {
+          "id": "pair_3923a7ca607343e5b0a52d7926da93be",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -129,7 +157,7 @@
     {
       "_id": "req_0a4e2d700732424ea9a5679cdac4b620",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152404,
+      "modified": 1704596135997,
       "created": 1704507152404,
       "url": "http://localhost:8080/medicos",
       "name": "Atualização de Médico",
@@ -143,11 +171,19 @@
       "headers": [
         {
           "name": "Content-Type",
-          "value": "application/json"
+          "value": "application/json",
+          "id": "pair_41d4f397ecc748e2a4dbad8bcd7091b4"
         },
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_133e69c9b25a400f9eca4d5aa54540b9"
+        },
+        {
+          "id": "pair_956f2ceb02fb426e80885d3bcf0efdb9",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -164,7 +200,7 @@
     {
       "_id": "req_8478be8d56414f599c413d6a850582f9",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152416,
+      "modified": 1704596130139,
       "created": 1704507152416,
       "url": "http://localhost:8080/pacientes",
       "name": "Atualização de Paciente",
@@ -178,11 +214,19 @@
       "headers": [
         {
           "name": "Content-Type",
-          "value": "application/json"
+          "value": "application/json",
+          "id": "pair_803a4d2c364148fda42611127ecbd272"
         },
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_1391af6e16374d8a9ded0737f3285802"
+        },
+        {
+          "id": "pair_b6a26ebea54140e59f61d0941fa5aff3",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -199,7 +243,7 @@
     {
       "_id": "req_9f1480f4db0745088f80de027f0f1732",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152393,
+      "modified": 1704596122733,
       "created": 1704507152393,
       "url": "http://localhost:8080/medicos?sort=nome,desc",
       "name": "Listagem de Médicos",
@@ -210,7 +254,14 @@
       "headers": [
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_d4c25fc2b7944d36b9ffd4fbdf7233df"
+        },
+        {
+          "id": "pair_7bf7d510434d49cf88162d4a1aca4c55",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -227,7 +278,7 @@
     {
       "_id": "req_98d3618b40f04f57a96136fd52e4e196",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152398,
+      "modified": 1704596114484,
       "created": 1704507152398,
       "url": "http://localhost:8080/pacientes?sort=nome,desc",
       "name": "Listagem de Pacientes",
@@ -238,7 +289,14 @@
       "headers": [
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_ef3c1e686f7d4b1687d4c96976b7c5c3"
+        },
+        {
+          "id": "pair_af5f13483e3348fc9619c18986be4ed6",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -255,7 +313,7 @@
     {
       "_id": "req_644f17ab70534974a6be6695df31a3c9",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152381,
+      "modified": 1704596047699,
       "created": 1704507152381,
       "url": "http://localhost:8080/medicos",
       "name": "Cadastro de Médico",
@@ -269,11 +327,19 @@
       "headers": [
         {
           "name": "Content-Type",
-          "value": "application/json"
+          "value": "application/json",
+          "id": "pair_1072248aa6f54a0db35881cb29af9dac"
         },
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_1c5b58ed60b44d4393944ddedfdee064"
+        },
+        {
+          "id": "pair_8c689bdadea84c0d91a572e657628cca",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
@@ -290,7 +356,7 @@
     {
       "_id": "req_b7100a2509bd417cad242e529f1f882e",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152387,
+      "modified": 1704596099699,
       "created": 1704507152387,
       "url": "http://localhost:8080/pacientes",
       "name": "Cadastro de Paciente",
@@ -304,11 +370,19 @@
       "headers": [
         {
           "name": "Content-Type",
-          "value": "application/json"
+          "value": "application/json",
+          "id": "pair_5990a26942d248b292e95b4c0ddf36b5"
         },
         {
           "name": "User-Agent",
-          "value": "insomnia/8.5.1"
+          "value": "insomnia/8.5.1",
+          "id": "pair_1775dd725f0d4ce796598832eaa12295"
+        },
+        {
+          "id": "pair_7155796faf114ad59e7f7cc07b9c02b5",
+          "name": "Accept-Language",
+          "value": "pt-br",
+          "description": ""
         }
       ],
       "authentication": {},
