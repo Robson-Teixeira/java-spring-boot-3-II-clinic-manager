@@ -1,13 +1,58 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2024-01-07T02:57:03.554Z",
+  "__export_date": "2024-01-07T15:09:49.045Z",
   "__export_source": "insomnia.desktop.app:v8.5.1",
   "resources": [
     {
+      "_id": "req_f5aa11bfe28b48d1b3e8b5e64f07a469",
+      "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "modified": 1704640059850,
+      "created": 1704638912323,
+      "url": "http://localhost:8080/login",
+      "name": "Efetuar Login",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"login\": \"robson.teixeira@voll.med\",\n\t\"senha\": \"123456\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.5.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1704638912323,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_3d6ac81cf034431f9be02e7608203e60",
+      "parentId": null,
+      "modified": 1704507152364,
+      "created": 1704507152364,
+      "name": "java-spring-boot-3-II-clinic-manager - API Voll.med",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
       "_id": "req_d46adcf2f79943f8b8a81d751eb5d9d5",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596163546,
+      "modified": 1704636521092,
       "created": 1704507208844,
       "url": "http://localhost:8080/medicos/5",
       "name": "Detalhe de Médico",
@@ -40,19 +85,9 @@
       "_type": "request"
     },
     {
-      "_id": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "parentId": null,
-      "modified": 1704507152364,
-      "created": 1704507152364,
-      "name": "java-spring-boot-3-II-clinic-manager - API Voll.med",
-      "description": "",
-      "scope": "collection",
-      "_type": "workspace"
-    },
-    {
       "_id": "req_87843c8acf5f4483812d77b5800438aa",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596158177,
+      "modified": 1704597019923,
       "created": 1704508936196,
       "url": "http://localhost:8080/pacientes/1",
       "name": "Detalhe de Paciente",
@@ -356,7 +391,7 @@
     {
       "_id": "req_b7100a2509bd417cad242e529f1f882e",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596099699,
+      "modified": 1704597096724,
       "created": 1704507152387,
       "url": "http://localhost:8080/pacientes",
       "name": "Cadastro de Paciente",
@@ -412,10 +447,22 @@
     {
       "_id": "jar_b6eccf7e96f2459eb2e1c17d21313a04",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704507152374,
+      "modified": 1704636603308,
       "created": 1704507152374,
       "name": "Default Jar",
-      "cookies": [],
+      "cookies": [
+        {
+          "key": "JSESSIONID",
+          "value": "9AEEAFB486BC81C32D2C7F9C5DC74B00",
+          "domain": "localhost",
+          "path": "/",
+          "httpOnly": true,
+          "hostOnly": true,
+          "creation": "2024-01-07T13:05:28.902Z",
+          "lastAccessed": "2024-01-07T14:10:03.308Z",
+          "id": "23325aeb-5a93-497e-8250-e7efd50fd12a"
+        }
+      ],
       "_type": "cookie_jar"
     },
     {
