@@ -1,6 +1,8 @@
 package br.com.alura.clinic.manager.controller;
 
 import br.com.alura.clinic.manager.domain.usuario.DadosAutenticacao;
+import br.com.alura.clinic.manager.domain.usuario.Usuario;
+import br.com.alura.clinic.manager.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +19,8 @@ public class AutenticacaoController {
 
     @Autowired
     private AuthenticationManager authenticationManager;
+    @Autowired
+    private TokenService tokenService;
 
     @PostMapping
     public ResponseEntity efetuarLogin(@RequestBody @Valid DadosAutenticacao dadosAutenticacao) {
@@ -24,7 +28,7 @@ public class AutenticacaoController {
         var token = new UsernamePasswordAuthenticationToken(dadosAutenticacao.login(), dadosAutenticacao.senha());
         var authentication = authenticationManager.authenticate(token);
 
-        return ResponseEntity.ok().build();
+        return ResponseEntity.ok(tokenService.gerarToken((Usuario) authentication.getPrincipal()));
 
     }
 
