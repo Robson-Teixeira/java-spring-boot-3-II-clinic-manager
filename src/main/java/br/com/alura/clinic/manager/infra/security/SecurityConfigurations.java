@@ -2,6 +2,7 @@ package br.com.alura.clinic.manager.infra.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -20,6 +21,10 @@ public class SecurityConfigurations {
         return httpSecurity
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(sessionManagement -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .authorizeHttpRequests(ahr -> ahr.requestMatchers(
+                        HttpMethod.POST, "/login").permitAll() // POST Login liberado para todos
+                        .anyRequest().authenticated() // Demais requisições requerem autenticação
+                )
                 .build();
     }
 
