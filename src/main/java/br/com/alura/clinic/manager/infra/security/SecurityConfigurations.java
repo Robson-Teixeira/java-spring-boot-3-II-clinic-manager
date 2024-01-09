@@ -21,10 +21,10 @@ public class SecurityConfigurations {
         return httpSecurity
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(sessionManagement -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .authorizeHttpRequests(ahr -> ahr.requestMatchers(
-                        HttpMethod.POST, "/login").permitAll() // POST Login liberado para todos
-                        .anyRequest().authenticated() // Demais requisições requerem autenticação
-                )
+                .authorizeHttpRequests(ahr -> {
+                    ahr.requestMatchers(HttpMethod.POST, "/login").permitAll(); // POST Login liberado para todos
+                    ahr.anyRequest().authenticated(); // Demais requisições requerem autenticação
+                })
                 .build();
     }
 
