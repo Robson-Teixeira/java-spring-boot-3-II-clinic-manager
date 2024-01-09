@@ -1,7 +1,7 @@
 {
   "_type": "export",
   "__export_format": 4,
-  "__export_date": "2024-01-07T15:09:49.045Z",
+  "__export_date": "2024-01-09T04:03:16.007Z",
   "__export_source": "insomnia.desktop.app:v8.5.1",
   "resources": [
     {
@@ -52,7 +52,7 @@
     {
       "_id": "req_d46adcf2f79943f8b8a81d751eb5d9d5",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704636521092,
+      "modified": 1704772896278,
       "created": 1704507208844,
       "url": "http://localhost:8080/medicos/5",
       "name": "Detalhe de Médico",
@@ -62,18 +62,21 @@
       "parameters": [],
       "headers": [
         {
+          "id": "pair_b9ce406c6ef146b0a8f8ee414317eee1",
           "name": "User-Agent",
-          "value": "insomnia/8.5.1",
-          "id": "pair_b9ce406c6ef146b0a8f8ee414317eee1"
+          "value": "insomnia/8.5.1"
         },
         {
+          "description": "",
           "id": "pair_1e5bf654841a4a1296c31ff625912b3f",
           "name": "Accept-Language",
-          "value": "pt-br",
-          "description": ""
+          "value": "pt-br"
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704507208844,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -87,7 +90,7 @@
     {
       "_id": "req_87843c8acf5f4483812d77b5800438aa",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704597019923,
+      "modified": 1704772902276,
       "created": 1704508936196,
       "url": "http://localhost:8080/pacientes/1",
       "name": "Detalhe de Paciente",
@@ -97,18 +100,21 @@
       "parameters": [],
       "headers": [
         {
+          "id": "pair_3d10a49ba74a496da0b8a00ad441f27c",
           "name": "User-Agent",
-          "value": "insomnia/8.5.1",
-          "id": "pair_3d10a49ba74a496da0b8a00ad441f27c"
+          "value": "insomnia/8.5.1"
         },
         {
+          "description": "",
           "id": "pair_709d245f7c434a73bdfab8beba0a4c6e",
           "name": "Accept-Language",
-          "value": "pt-br",
-          "description": ""
+          "value": "pt-br"
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704449762596.5,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -122,7 +128,7 @@
     {
       "_id": "req_df4076d01f2c43adba805b39bc420423",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596150041,
+      "modified": 1704772911802,
       "created": 1704507152410,
       "url": "http://localhost:8080/medicos/1",
       "name": "Exclusão de Médico",
@@ -143,7 +149,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704392316349,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -157,7 +166,7 @@
     {
       "_id": "req_96b6e78312f2406bac170aedaef6fad1",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596142399,
+      "modified": 1704772917619,
       "created": 1704507152421,
       "url": "http://localhost:8080/pacientes/1",
       "name": "Exclusão de Paciente",
@@ -178,7 +187,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704384634241.5,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -192,7 +204,7 @@
     {
       "_id": "req_0a4e2d700732424ea9a5679cdac4b620",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596135997,
+      "modified": 1704772924842,
       "created": 1704507152404,
       "url": "http://localhost:8080/medicos",
       "name": "Atualização de Médico",
@@ -221,7 +233,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704376952134,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -235,7 +250,7 @@
     {
       "_id": "req_8478be8d56414f599c413d6a850582f9",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596130139,
+      "modified": 1704772929350,
       "created": 1704507152416,
       "url": "http://localhost:8080/pacientes",
       "name": "Atualização de Paciente",
@@ -264,7 +279,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704356637225.5,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -278,7 +296,7 @@
     {
       "_id": "req_9f1480f4db0745088f80de027f0f1732",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596122733,
+      "modified": 1704772933867,
       "created": 1704507152393,
       "url": "http://localhost:8080/medicos?sort=nome,desc",
       "name": "Listagem de Médicos",
@@ -299,7 +317,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704336322317,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -313,7 +334,7 @@
     {
       "_id": "req_98d3618b40f04f57a96136fd52e4e196",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596114484,
+      "modified": 1704772938505,
       "created": 1704507152398,
       "url": "http://localhost:8080/pacientes?sort=nome,desc",
       "name": "Listagem de Pacientes",
@@ -334,7 +355,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704283957692.5,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -348,7 +372,7 @@
     {
       "_id": "req_644f17ab70534974a6be6695df31a3c9",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704596047699,
+      "modified": 1704772942788,
       "created": 1704507152381,
       "url": "http://localhost:8080/medicos",
       "name": "Cadastro de Médico",
@@ -377,7 +401,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704231593068,
       "isPrivate": false,
       "settingStoreCookies": true,
@@ -391,7 +418,7 @@
     {
       "_id": "req_b7100a2509bd417cad242e529f1f882e",
       "parentId": "wrk_3d6ac81cf034431f9be02e7608203e60",
-      "modified": 1704597096724,
+      "modified": 1704772946777,
       "created": 1704507152387,
       "url": "http://localhost:8080/pacientes",
       "name": "Cadastro de Paciente",
@@ -420,7 +447,10 @@
           "description": ""
         }
       ],
-      "authentication": {},
+      "authentication": {
+        "type": "bearer",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVm9sbC5tZWQiLCJzdWIiOiJyb2Jzb24udGVpeGVpcmFAdm9sbC5tZWQiLCJpZCI6MSwiZXhwIjoxNzA0NzgwMDg0fQ.ssCSWH4AMRwih07HROg-hZoHq40F9MUY9SE284mv3y4"
+      },
       "metaSortKey": -1704231593018,
       "isPrivate": false,
       "settingStoreCookies": true,
