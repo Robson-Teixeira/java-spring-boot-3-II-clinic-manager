@@ -11,6 +11,8 @@ This project was generated with [Spring Initializr](https://start.spring.io/) ve
 - MySQL Driver
 - Spring Data JPA
 - Flyway Migration
+- Spring Security
+- JWT
 
 ## Tools
 
